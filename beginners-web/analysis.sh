@@ -1,0 +1,53 @@
+curl 'http://34.85.124.174:59101/' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: http://34.85.124.174:59101' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Referer: http://34.85.124.174:59101/' \
+  -H 'Accept-Language: en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7,es;q=0.6,fr;q=0.5' \
+  -H 'Cookie: sessionId=WVdu9q7Py8dOB4zOwwfb59nikV6lb2Nh.chQV8hqnQoz4DyvGSuxszgZT4HVoK9YhVZ%2BoCFQAeYI' \
+  --data-raw 'input=Neptunian+will+hack+this+chall&converter=flag_WVdu9q7Py8dOB4zOwwfb59nikV6lb2Nh' \
+  --compressed \
+  --insecure
+
+curl 'http://localhost:59101/' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: http://localhost:59101' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Referer: http://localhost:59101/' \
+  -H 'Accept-Language: en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7,es;q=0.6,fr;q=0.5' \
+  -H 'Cookie: sessionId=fBoriZ1AQ18m70L0u0G_lECMPXzfbUr_.GJG7kEMxBRtUW%2FVw0qdXoujiPHA70fBwBjbzaiZzrak' \
+  --data-raw 'input=Neptunian+will+hack+this+chall&converter=sh7fhKalYVOIYjEEXJ2VEIxnEuhln' \
+  --compresse
+
+curl 'http://localhost:59101/' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: http://localhost:59101' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Referer: http://localhost:59101/' \
+  -H 'Accept-Language: en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7,es;q=0.6,fr;q=0.5' \
+  -H 'Cookie: sessionId=fBoriZ1AQ18m70L0u0G_lECMPXzfbUr_.GJG7kEMxBRtUW%2FVw0qdXoujiPHA70fBwBjbzaiZzrak' \
+  --data-raw 'input=Neptunian+will+hack+this+chall&converter=base64' \
+  --compressed
